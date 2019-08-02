@@ -1,9 +1,9 @@
 # CSS TEXT SPLITE HOVER EFFECT
 
 ## This is first effect look like...
-<img scr="CSS-Creative-Hover-Effects/img1">
+<img scr="img1.png">
 
 ## This is secound effect look like...
-<img scr="CSS-Creative-Hover-Effects/img2">
+<img scr="img2.png">
 
 Note: You can change the name name... 
