@@ -1,0 +1,9 @@
+# CSS TEXT SPLITE HOVER EFFECT
+
+## This is first effect look like...
+<img scr="img1">
+
+## This is secound effect look like...
+<img scr="img2">
+
+Note: You can change the name name... 
