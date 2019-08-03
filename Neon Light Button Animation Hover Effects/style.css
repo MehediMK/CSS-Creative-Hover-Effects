@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #1b78c3;
+    font-size: 2em;
+    transition: 1s;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+a:hover {
+    transition-delay: 1.5s;
+    box-shadow: 0 0 10px #2196f3, 0 0 100px #2196f3, 0 0 150px #2196f3;
+}
+
+a span {
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+}
+
+a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 0.5s;
+}
+
+a span:nth-child(2) {
+    right: 0;
+    top: -100%;
+    height: 100%;
+    width: 2px;
+    background-color: red;
+}
+
+a:hover span:nth-child(2) {
+    top: 100%;
+    transition: .5s;
+    transition-delay: 0.5s;
+}
+
+a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+}
+
+a:hover span:nth-child(3) {
+    right: 100%;
+    transition: .5s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+}
+
+a span:nth-child(4) {
+    left: 0;
+    bottom: -100%;
+    width: 2px;
+    height: 100%;
+    background-color: red;
+}
+
+a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: .5s;
+    transition-delay: 1.5s;
+}
